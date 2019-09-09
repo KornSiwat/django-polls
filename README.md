@@ -10,7 +10,7 @@ which allow users to vote and track the results in the webpage.
 These resources are needed in order to run the program:
 
 - `Python (ver.3.6 or newer)` [download site](https://www.python.org/downloads/)
-- `Python modules listed in` [requirements files](requirements.txt)
+- `Python modules listed in` [requirement file](requirements.txt)
 
 ## Installation
 
