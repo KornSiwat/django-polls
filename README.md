@@ -14,15 +14,13 @@ These resources are needed in order to run the program:
 
 ## Installation
 
-### Step 1
+### Step 1: Cloning the repository
 
-Open the Terminal and type the following command:
+    Open the Terminal and type the following command:
 
         git clone https://github.com/KornSiwat/django-polls
 
-### Step 2
-
-Go to the project directory (django-polls folder) and type the following command:
+### Step 2: Install required python3 modules
 
     Open the Terminal and type the following command:
 
@@ -34,9 +32,9 @@ Go to the project directory (django-polls folder) and type the following command
 
             pip install -r requirements.txt
 
-### Step 3
+### Step 3: Migrating Data
 
-    Then type the following command:
+    Type the following command in the Terminal:
 
         On MacOs and Linux:
 
@@ -45,10 +43,28 @@ Go to the project directory (django-polls folder) and type the following command
         On Windows:
 
             python manage.py migrate
+            
+### Step 4: Creating a config file
+
+    Type the following command in the Terminal:
+    
+        touch .env
         
+### Step 5: Adding required config to the config file
+
+   #### Edit .env file create these variable and assign your prefering config to these following variable name:
+    
+        ⦿ SECRET_KEY: String
+        
+        ⦿ DEBUG: Bool
+        
+        ⦿ DB_NAME: String
+        
+        ⦿ TIME_ZONE: String
+            
 ## How to run locally
 
-### Step 1
+### Step 1: Execute runing command
 
     Open the Terminal and type the following command:
 
@@ -59,6 +75,12 @@ Go to the project directory (django-polls folder) and type the following command
         On Windows:
 
             python manage.py runserver
+    
+### Step 2: Look for the address and port on your console
+
+    An address and port will be printed on the console.    
+    
+    Django run on port 8000 by default.
 
 ## Contact
 
