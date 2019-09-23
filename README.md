@@ -34,13 +34,21 @@ Go to the project directory (django-polls folder) and type the following command
 
             pip install -r requirements.txt
 
+### Step 3
+
+    Then type the following command:
+
+        On MacOs and Linux:
+
+            python3 manage.py migrate
+
+        On Windows:
+
+            python manage.py migrate
+        
 ## How to run locally
 
 ### Step 1
-
-    Go to the django-poll/mysite
-
-### Step 2
 
     Open the Terminal and type the following command:
 
