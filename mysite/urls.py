@@ -20,5 +20,6 @@ from polls.views import redirect_index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('polls/', include('polls.urls')),
-    path('', redirect_index)
+    path('', redirect_index),
+    path('accounts/', include('django.contrib.auth.urls')),
 ]
