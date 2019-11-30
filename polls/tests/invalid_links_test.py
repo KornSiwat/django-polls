@@ -10,7 +10,7 @@ def get_links(url):
 
     links = []
     browser = webdriver.Chrome(
-        executable_path='/Users/supakorn/Downloads/chromedriver')
+        executable_path='/Users/siwatponpued/Downloads/chromedriver')
     browser.get(url)
     elements = browser.find_elements_by_tag_name("a")
     for a in elements:
